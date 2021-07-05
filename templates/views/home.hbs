@@ -1,0 +1,25 @@
+<html>
+    <head>
+        {{!-- calling the home css file path --}}
+        <link rel="stylesheet" href="./css/style.css">
+        {{!-- display the icon in the top of wesite page--}}
+        <link rel="icon" href="./img/icon.jpg">
+        <script src="./js/jquery-3.6.0.js"></script>
+        <script src="./js/home.js"></script>
+    </head>
+
+    <body>
+        
+        {{>header}}
+        <p>Use this site to get weather info</p>
+        {{!-- Giving ID for the text to display --}}
+        <input type="text" id = "location">
+        {{!-- Giving ID for the button for click action --}}
+        <button id="srhBtn">Search</button>
+        {{!-- Giving ID for the p tag for displying the result --}}
+        <p id="result"></p>
+        <hr>
+        {{!-- giving seprate id for p tag, because to differentiate it --}}
+        {{>footer}}
+    </body>
+</html>

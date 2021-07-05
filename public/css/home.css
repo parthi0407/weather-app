@@ -1,0 +1,8 @@
+/* declaring the h1 tag, directly we can use the tag name */
+h1{
+    color: blue;
+}
+/* if it declares by the id, need to put # in front of the id*/
+#createdby{
+    float:right;
+}

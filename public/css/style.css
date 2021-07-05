@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+    font-size: 74px;
+}
+
+#createdby{
+    float:right;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+body{
+    color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 650px;
+    margin: auto;
+}
+footer{
+    color: crimson;
+}
+header{
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+a{
+    color: darkblue; /*change color of the words */
+    margin-right: 20px; /* Give space between the words */
+    text-decoration: none; /* it is used to remove the underline in a tag */
+}
+input{
+    border:1px solid blue; /* its giving border for the input area*/
+    padding: 8px; /*its giving space in the content*/
+}
+button{
+    cursor: pointer; /* it shows the handle symbol while mouse over the word*/
+    font-style: italic;
+    border: 1px solid red;
+    background: royalblue;
+    color: sienna;
+    padding: 8px;
+}
